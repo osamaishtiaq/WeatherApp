@@ -1,0 +1,38 @@
+body {
+  margin-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 5%;
+  width: 100%;
+  color: white;
+  background-color: rgb(24, 23, 24);
+  background: url("https://res.cloudinary.com/orionrenegado/image/upload/v1526682766/WeatherApp/default.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.details {
+  border-top: 1px solid rgba(12, 12, 12, 0.1);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 5px;
+}
+
+#btnUnitChange {
+  float: right;
+}
+.info {
+  float: right;
+}
+
+#weather-Icon {
+  position: relative;
+  bottom: 6px;
+  width: 50px;
+  float: right;
+}
+@media screen and (max-width: 550px) {
+  body {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
